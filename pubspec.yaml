@@ -1,0 +1,38 @@
+name: emoodie_app
+description: "emoodie_spotify_mockapp"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  provider: ^6.1.2
+  dio: ^5.7.0
+  loading_animation_widget: ^1.3.0
+  fluttertoast: ^8.2.6
+  mockito: ^5.4.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.11
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
