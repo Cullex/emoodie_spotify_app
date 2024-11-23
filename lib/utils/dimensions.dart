@@ -14,8 +14,6 @@ class Dimensions {
   static late double safeBlockHorizontal;
   static late double safeBlockVertical;
 
-  static late double pageViewContainer;
-  static late double pageViewTextContainer;
   static late double height20;
   static late double height30;
   static late double height40;
@@ -36,8 +34,6 @@ class Dimensions {
     safeAreaVertical = _mediaQueryData.padding.top + _mediaQueryData.padding.bottom;
     safeBlockHorizontal = (screenWidth - safeAreaHorizontal) / 100;
     safeBlockVertical = (screenHeight - safeAreaVertical) / 100;
-    pageViewContainer = screenHeight / 3.25;
-    pageViewTextContainer = screenHeight / 7.03;
     height20 = screenHeight / 42.3;
     height30 = screenHeight / 28.2;
     height40 = screenHeight / 21.15;
