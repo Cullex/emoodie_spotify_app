@@ -9,13 +9,6 @@ class Dimensions {
 
   static late double iconSize24;
 
-  static late double safeAreaHorizontal;
-  static late double safeAreaVertical;
-  static late double safeBlockHorizontal;
-  static late double safeBlockVertical;
-
-  static late double height20;
-  static late double height30;
   static late double height40;
   static late double width20;
   static late double width30;
@@ -30,12 +23,6 @@ class Dimensions {
 
     iconSize24 = blockSizeVertical * 2;
 
-    safeAreaHorizontal = _mediaQueryData.padding.left + _mediaQueryData.padding.right;
-    safeAreaVertical = _mediaQueryData.padding.top + _mediaQueryData.padding.bottom;
-    safeBlockHorizontal = (screenWidth - safeAreaHorizontal) / 100;
-    safeBlockVertical = (screenHeight - safeAreaVertical) / 100;
-    height20 = screenHeight / 42.3;
-    height30 = screenHeight / 28.2;
     height40 = screenHeight / 21.15;
     width20 = screenWidth / 41.5;
     width30 = screenWidth / 27.6;
